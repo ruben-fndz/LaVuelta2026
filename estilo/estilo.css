@@ -1,0 +1,143 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Rubén Amago Fernández       */
+/*  Correo electrónico (uniovi): uo308284@uniovi.es */
+/*  Grupo de laboratorio: L2                        */
+/* ***************************************/
+
+/* Gama cromática
+Color principal: #7A0000 (Rojo oscuro)
+Contraste de 7.03:1 con color secundario
+Contraste de 11.49:1 con color blanco
+
+Color secundario: #D6C7C7 (Gris claro)
+Contraste de 7.03:1 con color principal
+Contraste de 12.85:1 con color negro
+
+Color Blanco: #FFFFFF
+Color Negro: #000000
+*/
+
+/* Especificidad: 010 */
+:root {
+    --color-principal: #7A0000;
+    --color-secundario: #D6C7C7;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+}
+
+
+
+/* Especificidad: 001 */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001, 001 */
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 001 */
+h2 {
+    color: var(--color-principal);/*ADVERTENCIA: color de fondo heredado de body --color-blanco*/
+}
+
+/* Especificidad: 001 */
+h3 {
+    background-color: var(--color-secundario);/*ADVERTENCIA: color de texto heredado de body --color-negro*/
+}
+
+/* Especificidad: 002, 002, 002 */
+nav a, footer a, h1 a {
+    color: var(--color-blanco);/*ADVERTENCIA: color de fondo heredado de header y footer --color-principal*/
+    text-decoration: none;
+}
+
+/* Especificidad: 012 */
+nav a[aria-current="page"] {
+    background-color: var(--color-blanco);
+    color: var(--color-principal);
+}
+
+/* Especificidad: 003 */
+header + nav > ol {
+    font-size: 0.9em;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Especificidad: 004 */
+header + nav > ol > li {
+    display: inline;
+}
+
+/* Especificidad: 014 */
+header + nav > ol > li:last-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 003 */
+header + nav a {
+    color: var(--color-negro); /*ADVERTENCIA: color de fondo heredado de body --color-blanco*/
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:nth-child(3) {
+    font-size: 1.5em;
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:nth-child(4) {
+    font-weight: bold;
+}
+
+/* Especificidad: 001 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 1em auto;
+}
+
+/* Especificidad: 001 */
+caption {
+    font-weight: bold;
+    padding: 0.5em;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+/* Especificidad: 001, 001 */
+th, td {
+    padding: 0.8em 1em;
+    text-align: left;
+    border: 1px solid var(--color-negro);
+}
+
+/* Especificidad: 001 */
+th {
+    background-color: var(--color-principal); 
+    color: var(--color-blanco); 
+}
+
+/* Especificidad: 001 */
+td {
+    background-color: var(--color-secundario); /*ADVERTENCIA: color de texto heredado de body --color-negro*/
+}
+
+
+

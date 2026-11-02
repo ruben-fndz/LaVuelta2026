@@ -1,0 +1,55 @@
+<!ELEMENT etapa (nombre, numero, longitud, fecha, tiempo_ganador, velocidad_media_ganador, desnivel, ciudad_inicio, ciudad_fin, tipo_etapa, referencias, fotografias, videos, podcasts, coordenadas_inicio, coordenadas_fin, hitos, puntos_anonimos, clasificacion_etapa, clasificacion_general, clasificacion_equipos)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidades CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempo_ganador (#PCDATA)>
+<!ELEMENT velocidad_media_ganador (#PCDATA)>
+<!ATTLIST velocidad_media_ganador unidades CDATA #REQUIRED>
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel unidades CDATA #REQUIRED>
+<!ELEMENT ciudad_inicio (#PCDATA)>
+<!ELEMENT ciudad_fin (#PCDATA)>
+<!ELEMENT tipo_etapa (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT fotografias (fotografia+)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT podcasts (podcast+)>
+<!ELEMENT podcast (#PCDATA)>
+
+<!ELEMENT coordenadas (longitud_geo, latitud_geo, altitud_geo)>
+<!ELEMENT longitud_geo (#PCDATA)>
+<!ATTLIST longitud_geo unidades CDATA #REQUIRED>
+<!ELEMENT latitud_geo (#PCDATA)>
+<!ATTLIST latitud_geo unidades CDATA #REQUIRED>
+<!ELEMENT altitud_geo (#PCDATA)>
+<!ATTLIST altitud_geo unidades CDATA #REQUIRED>
+
+<!ELEMENT coordenadas_inicio (coordenadas)>
+<!ELEMENT coordenadas_fin (coordenadas)>
+
+<!ELEMENT hitos (puerto_montaña*, sprint*)>
+<!ELEMENT puerto_montaña (categoria_puerto, coordenadas, distancia)>
+<!ELEMENT categoria_puerto (#PCDATA)>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidades CDATA #REQUIRED>
+<!ELEMENT sprint (tipo_sprint, coordenadas, distancia)>
+<!ELEMENT tipo_sprint (#PCDATA)>
+<!ELEMENT puntos_anonimos (punto_anonimo*)>
+<!ELEMENT punto_anonimo (nombre_punto?, coordenadas, distancia)>
+<!ELEMENT nombre_punto (#PCDATA)>
+
+<!ELEMENT clasificacion_etapa (ciclista, ciclista, ciclista)>
+<!ELEMENT clasificacion_general (ciclista, ciclista, ciclista)>
+<!ELEMENT clasificacion_equipos (equipo, equipo, equipo)>
+<!ELEMENT ciclista (nombre_ciclista, tiempo_diferencia)>
+<!ELEMENT equipo (nombre_equipo, tiempo_diferencia)>
+<!ELEMENT nombre_ciclista (#PCDATA)>
+<!ELEMENT nombre_equipo (#PCDATA)>
+<!ELEMENT tiempo_diferencia (#PCDATA)>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>Planimetría de la Etapa</name>
+    <description>Ruta de la etapa de La Vuelta 2026 generada con Python</description>
+    
+    <!-- Estilo ROJO para Salida y Meta (ff0000ff) -->
+    <Style id="estiloRojo">
+        <IconStyle><color>ff0000ff</color><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle>
+    </Style>
+    
+    <!-- Estilo VERDE para Puertos de montaña (ff00ff00) -->
+    <Style id="estiloVerde">
+        <IconStyle><color>ff00ff00</color><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle>
+    </Style>
+    
+    <!-- Estilo AZUL para Sprints (ffff0000) -->
+    <Style id="estiloAzul">
+        <IconStyle><color>ffff0000</color><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle>
+    </Style>
+    
+    <!-- Estilo AMARILLO para Puntos Anónimos (ff00ffff) -->
+    <Style id="estiloAmarillo">
+        <IconStyle><color>ff00ffff</color><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle>
+    </Style>
+    
+    <!-- Estilo ROJO y con grosor 4 para la LÍNEA que une toda la ruta -->
+    <Style id="estiloLinea">
+        <LineStyle><color>ff0000ff</color><width>4</width></LineStyle>
+    </Style>
+    <Placemark>
+        <name>Salida</name>
+        <description>Inicio de la etapa</description>
+        <styleUrl>#estiloRojo</styleUrl>
+        <Point>
+            <coordinates>7.4211189,43.730979 ,63</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Meta</name>
+        <description>Fin de la etapa</description>
+        <styleUrl>#estiloRojo</styleUrl>
+        <Point>
+            <coordinates>5.778445,43.841059,410</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Puerto (Cat. 3)</name>
+        <description>Puerto de montaña</description>
+        <styleUrl>#estiloVerde</styleUrl>
+        <Point>
+            <coordinates>6.973465,43.679226,407</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Puerto (Cat. 3)</name>
+        <description>Puerto de montaña</description>
+        <styleUrl>#estiloVerde</styleUrl>
+        <Point>
+            <coordinates>6.474896,43.588465,508</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Sprint Bonificado</name>
+        <description>Sprint intermedio</description>
+        <styleUrl>#estiloAzul</styleUrl>
+        <Point>
+            <coordinates>5.888710,43.757996,324.54</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Niza</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>7.270428,43.708467,28</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Villeneuve-Loubet</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>7.121592,43.656256,13</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Roquefort-les-Pins</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>7.050606,43.666308,185</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Grasse</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>6.921588,43.657881,334</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Peymeinade</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>6.878919,43.641470,187</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Lombardie</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>6.701888,43.606721,217</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Brovès en Seillans</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>6.641007,43.587329,260</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Ampus</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>6.384747,43.607332,561</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Aups</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>6.226794,43.628555,507</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Montmeyan</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>6.064043,43.648577,474</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Esparron-de-Verdon</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>5.973360,43.738771,378</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Gréoux-les-Bains</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>5.888545,43.758373,332</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Valensole</name>
+        <description>Punto de ruta</description>
+        <styleUrl>#estiloAmarillo</styleUrl>
+        <Point>
+            <coordinates>5.984162,43.836105,549</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Ruta de la Etapa</name>
+        <styleUrl>#estiloLinea</styleUrl>
+        <LineString>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>
+                7.4211189,43.730979 ,63 7.270428,43.708467,28 7.121592,43.656256,13 7.050606,43.666308,185 6.973465,43.679226,407 6.921588,43.657881,334 6.878919,43.641470,187 6.701888,43.606721,217 6.641007,43.587329,260 6.474896,43.588465,508 6.384747,43.607332,561 6.226794,43.628555,507 6.064043,43.648577,474 5.973360,43.738771,378 5.888710,43.757996,324.54 5.888545,43.758373,332 5.984162,43.836105,549 5.778445,43.841059,410
+            </coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

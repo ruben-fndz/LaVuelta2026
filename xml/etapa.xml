@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<etapa>
+    <nombre>Mónaco a Manosque</nombre>
+    <numero>2</numero>
+    <longitud unidades="km">202.1</longitud>
+    <fecha>23/08/2026</fecha>
+    <tiempo_ganador>04h 47' 47''</tiempo_ganador>
+    <velocidad_media_ganador unidades="km/h">44,679</velocidad_media_ganador>
+    <desnivel unidades="m">3020</desnivel>
+    <ciudad_inicio>Mónaco</ciudad_inicio>
+    <ciudad_fin>Manosque</ciudad_fin>
+    <tipo_etapa>Ondulada</tipo_etapa>
+
+    <referencias>
+        <referencia>https://www.lavuelta.es/es/etapa-2</referencia>
+        <referencia>https://www.rtve.es/deportes/20260823/vuelta-espana-2026-directo-hoy-etapa-2-resumen-clasificacion-ganador/17175674.shtml</referencia>
+        <referencia>https://www.lavuelta.es/es/libro-de-ruta-interactivo</referencia>
+        <referencia>https://www.youtube.com/shorts/Fticwb74uIg</referencia>
+    </referencias>
+
+    <fotografias>
+        <fotografia>../multimedia/foto1.jpg</fotografia>
+        <fotografia>../multimedia/foto2.jpg</fotografia>
+    </fotografias>
+
+    <videos>
+        <video>../multimedia/video1.mp4</video>
+    </videos>
+
+    <podcasts>
+        <podcast>../multimedia/podcast1.m4a</podcast>
+    </podcasts>
+
+    <coordenadas_inicio>
+        <coordenadas>
+            <longitud_geo unidades="grados">7.4211189</longitud_geo>
+            <latitud_geo unidades="grados">43.730979 </latitud_geo>
+            <altitud_geo unidades="m">63</altitud_geo>
+        </coordenadas>
+    </coordenadas_inicio>
+
+    <coordenadas_fin>
+        <coordenadas>
+            <longitud_geo unidades="grados">5.778445</longitud_geo>
+            <latitud_geo unidades="grados">43.841059</latitud_geo>
+            <altitud_geo unidades="m">410</altitud_geo>
+        </coordenadas>
+    </coordenadas_fin>
+
+
+    <hitos>
+        <puerto_montaña>
+            <categoria_puerto>3</categoria_puerto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.973465</longitud_geo>
+                <latitud_geo unidades="grados">43.679226</latitud_geo>
+                <altitud_geo unidades="m">407</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">53.5</distancia>
+        </puerto_montaña>
+
+        <puerto_montaña>
+            <categoria_puerto>3</categoria_puerto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.474896</longitud_geo>
+                <latitud_geo unidades="grados">43.588465</latitud_geo>
+                <altitud_geo unidades="m">508</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">114</distancia>
+        </puerto_montaña>
+
+        <sprint>
+            <tipo_sprint>Bonificado</tipo_sprint>
+            <coordenadas>
+                <longitud_geo unidades="grados">5.888710</longitud_geo>
+                <latitud_geo unidades="grados">43.757996</latitud_geo>
+                <altitud_geo unidades="m">324.54</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">166.2</distancia>
+        </sprint>
+    </hitos>
+
+
+    <puntos_anonimos>
+        <punto_anonimo>
+            <nombre_punto>Niza</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">7.270428</longitud_geo>
+                <latitud_geo unidades="grados">43.708467</latitud_geo>
+                <altitud_geo unidades="m">28</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">18.1</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Villeneuve-Loubet</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">7.121592</longitud_geo>
+                <latitud_geo unidades="grados">43.656256</latitud_geo>
+                <altitud_geo unidades="m">13</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">38.1</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Roquefort-les-Pins</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">7.050606</longitud_geo>
+                <latitud_geo unidades="grados">43.666308</latitud_geo>
+                <altitud_geo unidades="m">185</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">46.4</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Alto Châteauneuf-Grasse</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.973465</longitud_geo>
+                <latitud_geo unidades="grados">43.679226</latitud_geo>
+                <altitud_geo unidades="m">407</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">53.5</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Grasse</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.921588</longitud_geo>
+                <latitud_geo unidades="grados">43.657881</latitud_geo>
+                <altitud_geo unidades="m">334</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">59.5</distancia>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <nombre_punto>Peymeinade</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.878919</longitud_geo>
+                <latitud_geo unidades="grados">43.641470</latitud_geo>
+                <altitud_geo unidades="m">187</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">65.6</distancia>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <nombre_punto>Lombardie</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.701888</longitud_geo>
+                <latitud_geo unidades="grados">43.606721</latitud_geo>
+                <altitud_geo unidades="m">217</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">84.3</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Brovès en Seillans</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.641007</longitud_geo>
+                <latitud_geo unidades="grados">43.587329</latitud_geo>
+                <altitud_geo unidades="m">260</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">92.2</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Col de Saint-Andrieu</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.474896</longitud_geo>
+                <latitud_geo unidades="grados">43.588465</latitud_geo>
+                <altitud_geo unidades="m">511</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">114</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Ampus</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.384747</longitud_geo>
+                <latitud_geo unidades="grados">43.607332</latitud_geo>
+                <altitud_geo unidades="m">561</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">125</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Aups</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.226794</longitud_geo>
+                <latitud_geo unidades="grados">43.628555</latitud_geo>
+                <altitud_geo unidades="m">507</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">143</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Montmeyan</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">6.064043</longitud_geo>
+                <latitud_geo unidades="grados">43.648577</latitud_geo>
+                <altitud_geo unidades="m">474</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">158</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Esparron-de-Verdon</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">5.973360</longitud_geo>
+                <latitud_geo unidades="grados">43.738771</latitud_geo>
+                <altitud_geo unidades="m">378</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">175</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Gréoux-les-Bains</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">5.888545</longitud_geo>
+                <latitud_geo unidades="grados">43.758373</latitud_geo>
+                <altitud_geo unidades="m">332</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">188</distancia>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <nombre_punto>Valensole</nombre_punto>
+            <coordenadas>
+                <longitud_geo unidades="grados">5.984162</longitud_geo>
+                <latitud_geo unidades="grados">43.836105</latitud_geo>
+                <altitud_geo unidades="m">549</altitud_geo>
+            </coordenadas>
+            <distancia unidades="km">4</distancia>
+        </punto_anonimo>
+    </puntos_anonimos>
+
+    <clasificacion_etapa>
+        <ciclista>
+            <nombre_ciclista>James Matthew Brennan</nombre_ciclista>
+            <tiempo_diferencia>04h 47' 47'', B:10''  00:00:00</tiempo_diferencia>
+        </ciclista>
+        <ciclista>
+            <nombre_ciclista>Pau Miquel delgado</nombre_ciclista>
+            <tiempo_diferencia>04h 47' 47'', B:6''  00:00:00</tiempo_diferencia>
+        </ciclista>
+        <ciclista>
+            <nombre_ciclista>Tadej Pogacar</nombre_ciclista>
+            <tiempo_diferencia>04h 47' 47'', B:4''  00:00:00</tiempo_diferencia>
+        </ciclista>
+    </clasificacion_etapa>
+
+    <clasificacion_general>
+        <ciclista>
+            <nombre_ciclista>Tadej Pogacar</nombre_ciclista>
+            <tiempo_diferencia>04h 58' 40'', B:4''  00:00:00</tiempo_diferencia>
+        </ciclista>
+        <ciclista>
+            <nombre_ciclista>Wout Van aert</nombre_ciclista>
+            <tiempo_diferencia>04h 58' 49'', B:4''  +00:00:09</tiempo_diferencia>
+        </ciclista>
+        <ciclista>
+            <nombre_ciclista>James Matthew Brennan</nombre_ciclista>
+            <tiempo_diferencia>04h 58' 50'', B:10''  +00:00:10</tiempo_diferencia>
+        </ciclista>
+    </clasificacion_general>
+
+    <clasificacion_equipos>
+        <equipo>
+            <nombre_equipo>UAE Team Emirates XRG</nombre_equipo>
+            <tiempo_diferencia>14h 56' 40''  00:00:00</tiempo_diferencia>
+        </equipo>
+        <equipo>
+            <nombre_equipo>Team Visma | Lease a Bike</nombre_equipo>
+            <tiempo_diferencia>14h 56' 43''  +00:00:03</tiempo_diferencia>
+        </equipo>
+        <equipo>
+            <nombre_equipo>Netcompany Ineos Cycling Team</nombre_equipo>
+            <tiempo_diferencia>14h 57' 03''  +00:00:23</tiempo_diferencia>
+        </equipo>
+    </clasificacion_equipos>
+</etapa>

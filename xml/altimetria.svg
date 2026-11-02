@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" width="100%" height="100%">
+    <rect width="100%" height="100%" fill="white" />
+    <style>
+        .texto { font-family: Arial, sans-serif; font-size: 13px; fill: black; }
+        .linea-guia { stroke: #cccccc; stroke-dasharray: 5,5; stroke-width: 1; }
+    </style>
+    <line x1="90" y1="500.0" x2="1300" y2="500.0" class="linea-guia" />
+    <text x="85" y="504.0" text-anchor="end" class="texto">0m</text>
+    <line x1="90" y1="420.0" x2="1300" y2="420.0" class="linea-guia" />
+    <text x="85" y="424.0" text-anchor="end" class="texto">112m</text>
+    <line x1="90" y1="340.0" x2="1300" y2="340.0" class="linea-guia" />
+    <text x="85" y="344.0" text-anchor="end" class="texto">224m</text>
+    <line x1="90" y1="260.0" x2="1300" y2="260.0" class="linea-guia" />
+    <text x="85" y="264.0" text-anchor="end" class="texto">336m</text>
+    <line x1="90" y1="180.0" x2="1300" y2="180.0" class="linea-guia" />
+    <text x="85" y="184.0" text-anchor="end" class="texto">448m</text>
+    <line x1="90" y1="100.0" x2="1300" y2="100.0" class="linea-guia" />
+    <text x="85" y="104.0" text-anchor="end" class="texto">561m</text>
+    <line x1="100.0" y1="500" x2="100.0" y2="455.0802139037433" class="linea-guia" />
+    <text x="100.0" y="515" transform="rotate(90 100.0,515)" text-anchor="start" class="texto">Salida: Mónaco (0.0 km)</text>
+    <line x1="207.4715487382484" y1="500" x2="207.4715487382484" y2="480.03565062388594" class="linea-guia" />
+    <text x="207.4715487382484" y="515" transform="rotate(90 207.4715487382484,515)" text-anchor="start" class="texto">Niza (18.1 km)</text>
+    <line x1="326.2246412666997" y1="500" x2="326.2246412666997" y2="490.73083778966134" class="linea-guia" />
+    <text x="326.2246412666997" y="515" transform="rotate(90 326.2246412666997,515)" text-anchor="start" class="texto">Villeneuve-Loubet (38.1 km)</text>
+    <line x1="375.5071746660069" y1="500" x2="375.5071746660069" y2="368.0926916221034" class="linea-guia" />
+    <text x="375.5071746660069" y="515" transform="rotate(90 375.5071746660069,515)" text-anchor="start" class="texto">Roquefort-les-Pins (46.4 km)</text>
+    <line x1="417.6645225136071" y1="500" x2="417.6645225136071" y2="209.80392156862746" class="linea-guia" />
+    <text x="417.6645225136071" y="515" transform="rotate(90 417.6645225136071,515)" text-anchor="start" class="texto">Puerto Cat.3 (53.5 km)</text>
+    <line x1="453.2904502721425" y1="500" x2="453.2904502721425" y2="261.85383244206776" class="linea-guia" />
+    <text x="453.2904502721425" y="515" transform="rotate(90 453.2904502721425,515)" text-anchor="start" class="texto">Grasse (59.5 km)</text>
+    <line x1="489.5101434933201" y1="500" x2="489.5101434933201" y2="366.66666666666663" class="linea-guia" />
+    <text x="489.5101434933201" y="515" transform="rotate(90 489.5101434933201,515)" text-anchor="start" class="texto">Peymeinade (65.6 km)</text>
+    <line x1="600.5442850074221" y1="500" x2="600.5442850074221" y2="345.27629233511584" class="linea-guia" />
+    <text x="600.5442850074221" y="515" transform="rotate(90 600.5442850074221,515)" text-anchor="start" class="texto">Lombardie (84.3 km)</text>
+    <line x1="647.4517565561603" y1="500" x2="647.4517565561603" y2="314.6167557932264" class="linea-guia" />
+    <text x="647.4517565561603" y="515" transform="rotate(90 647.4517565561603,515)" text-anchor="start" class="texto">Brovès en Seillans (92.2 km)</text>
+    <line x1="776.8926274121721" y1="500" x2="776.8926274121721" y2="137.7896613190731" class="linea-guia" />
+    <text x="776.8926274121721" y="515" transform="rotate(90 776.8926274121721,515)" text-anchor="start" class="texto">Puerto Cat.3 (114.0 km)</text>
+    <line x1="842.2068283028203" y1="500" x2="842.2068283028203" y2="100.0" class="linea-guia" />
+    <text x="842.2068283028203" y="515" transform="rotate(90 842.2068283028203,515)" text-anchor="start" class="texto">Ampus (125.0 km)</text>
+    <line x1="949.0846115784265" y1="500" x2="949.0846115784265" y2="138.50267379679144" class="linea-guia" />
+    <text x="949.0846115784265" y="515" transform="rotate(90 949.0846115784265,515)" text-anchor="start" class="texto">Aups (143.0 km)</text>
+    <line x1="1038.149430974765" y1="500" x2="1038.149430974765" y2="162.03208556149735" class="linea-guia" />
+    <text x="1038.149430974765" y="515" transform="rotate(90 1038.149430974765,515)" text-anchor="start" class="texto">Montmeyan (158.0 km)</text>
+    <line x1="1066.056407718951" y1="500" x2="1066.056407718951" y2="230.4812834224599" class="linea-guia" />
+    <text x="1066.056407718951" y="515" transform="rotate(90 1066.056407718951,515)" text-anchor="start" class="texto">Esparron-de-Verdon (162.7 km)</text>
+    <line x1="1086.83819891143" y1="500" x2="1086.83819891143" y2="268.59893048128345" class="linea-guia" />
+    <text x="1086.83819891143" y="515" transform="rotate(90 1086.83819891143,515)" text-anchor="start" class="texto">Sprint (166.2 km)</text>
+    <line x1="1216.2790697674418" y1="500" x2="1216.2790697674418" y2="263.27985739750443" class="linea-guia" />
+    <text x="1216.2790697674418" y="515" transform="rotate(90 1216.2790697674418,515)" text-anchor="start" class="texto">Gréoux-les-Bains (188.0 km)</text>
+    <line x1="1293.4685799109352" y1="500" x2="1293.4685799109352" y2="108.55614973262033" class="linea-guia" />
+    <text x="1293.4685799109352" y="515" transform="rotate(90 1293.4685799109352,515)" text-anchor="start" class="texto">Valensole (201.0 km)</text>
+    <line x1="1300.0" y1="500" x2="1300.0" y2="207.6648841354724" class="linea-guia" />
+    <text x="1300.0" y="515" transform="rotate(90 1300.0,515)" text-anchor="start" class="texto">Meta: Manosque (202.1 km)</text>
+    <polyline points="100,500 100.0,455.0802139037433 207.4715487382484,480.03565062388594 326.2246412666997,490.73083778966134 375.5071746660069,368.0926916221034 417.6645225136071,209.80392156862746 453.2904502721425,261.85383244206776 489.5101434933201,366.66666666666663 600.5442850074221,345.27629233511584 647.4517565561603,314.6167557932264 776.8926274121721,137.7896613190731 842.2068283028203,100.0 949.0846115784265,138.50267379679144 1038.149430974765,162.03208556149735 1066.056407718951,230.4812834224599 1086.83819891143,268.59893048128345 1216.2790697674418,263.27985739750443 1293.4685799109352,108.55614973262033 1300.0,207.6648841354724 1300.0,500 100,500" fill="none" stroke="red" stroke-width="3" />
+    <line x1="100" y1="500" x2="1300.0" y2="500" stroke="black" stroke-width="2" />
+</svg>
